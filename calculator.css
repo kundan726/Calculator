@@ -1,0 +1,39 @@
+body{
+	background-color: #006166;
+}
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.calc{
+	width:400px;
+	margin:auto;
+	height:auto;
+	background:black;
+	padding:15px;
+	border-radius:20px;
+
+}
+input[type=text]{
+	width:100%;
+	padding:10px;
+	font-size:22px;
+	font-weight:bold;
+	margin-top:15px;
+	border-radius: 10px;
+}
+input[type=button]{
+	width:89px;
+	padding:10px;
+	font-size:22px;
+	font-weight:bold;
+	border-radius:5px;
+	cursor:pointer;
+}
+input[type=button]:hover{
+	background:yellow;
+}
+#del{
+	width:100%;
+}
